@@ -4,7 +4,7 @@ word = gets.chomp
 
 # verify if the word is equal to the reverse same word
 def is_palindrome word
-    return word == word.reverse
+    return word.downcase == word.reverse.downcase
 end
 
 # show result of def is_palindrome
