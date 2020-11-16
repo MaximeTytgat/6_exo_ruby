@@ -4,7 +4,7 @@ SIRET_number = gets.chomp
 
 def verify_siret siret_number
     siret_number = siret_number.split('')
-    if siret_number.length == 14
+    if siret_number.length >= 9
         sum = 0
         count = 0
 
